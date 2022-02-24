@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Bài3.css">
+    <style>
+        .menu2>ul>li{
+            display: inline-block;
+            position: relative;
+        }
+        .menu2>ul>li>a{
+            display: block;
+        }
+        .menu2>ul{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            background-color: rgb(62, 71, 201);
+            text-align: center;
+        }
+        .menu2>ul>li>a{
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: white;
+            padding:0 10px;
+            line-height: 40px;
+        }
+        .menu2>ul>li>a:hover{
+            color: rgb(64, 207, 172);
+        }
+        .menu2 ul ul{
+            display: none;
+            position: absolute;
+        }
+        .menu2 ul ul a{
+            display: block;
+        }
+        .menu2>ul>li:hover>ul{
+            display: block;
+        }
+        .menu2 ul ul{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 1px gray;
+        }
+        .menu2 ul ul a{
+            line-height: 30px;
+            color: rgb(56, 59, 243);
+            text-emphasis: none;
+            font-variant: small-caps;
+            font-size: larger;
+            padding: 0 10px;
+        }
+        .menu2 ul ul a:hover{
+            background-color: rgb(69, 236, 144);
+            color:rgb(248, 248, 250);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        
+        </header>
+        <nav class="menu2">
+            <ul>
+                <li><a href="trangchu.html">Trang Chủ</a></li>
+                <li><a href="gioithieu.html">Giới Thiệu</a></li>
+                <li>
+                    <a href="lienhe.html">Liên Hệ</a>
+                    <ul>
+                        <li><a href="">Hotline</a></li>
+                        <li><a href="">Emali</a></li>
+                    </ul>
+                </li>
+                <li><a href="gopy.html">Góp Ý</a></li>
+                <li><a href="gioidap.html">Giỏi Đáp</a></li>
+            </ul>
+    
+        </nav>
+        <br> <marquee> <b class="gradian">CHÀO MỪNG CÁC BẠN ĐẾN VỚI WEBSITE TRƯỜNG CAO ĐẲNG FPT POLYTECHNIC ĐÀ NẴNG</b></marquee>
+            <div id="seach">
+                <form action="">
+                    <input type="text" placeholder="Bạn cần tìm kiếm" required="">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+    <div id="tainguyen" style="padding:20px;border:1px solid #cdcd" ng-controller="myCtrl">
+     
+      
+      
+      <div>
+          <center> <table border="1">
+                <tr>
+                    <td><h3>Thông tin học tập</h3></td>
+                </tr>
+                <tr>
+                    <td colspan="5"><h4>Danh sách các học sinh lên lớp</h4></td>
+        
+                <tr>
+                    <td colspan="5"><h4>Danh sách các học sinh thi lại</h4></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="5"><h4>Danh sách các học sinh ở lại lớp</h4></td>
+                </tr>
+                <tr>
+                    <td colspan="5"><h4>Thông báo lịch nghỉ tết 2021-2022</h4></td>
+                </tr>
+                <tr>
+                    <td colspan="5"><h4>Thông báo tạm nghỉ học do tình hình dịch covic</h4></td>
+                </tr>
+                <tr>
+                    <td colspan="5"><h4>Thông báo do tình hình dịch căng thẳng <br>
+                         cho nên không thể quay lại trường để học <br>
+                          nên trường cho các em học online</h4></td>
+                </tr>
+            </table> 
+            <footer class="chantrang">
+                THPT Giao Thuỷ. All rights reserved.
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="https://uhchat.net/code.php?f=ff4c75"></script>
+</html>

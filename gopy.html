@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Bài3.css">
+    <style>
+        .menu2>ul>li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .menu2>ul>li>a {
+            display: block;
+        }
+
+        .menu2>ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            background-color: rgb(62, 71, 201);
+            text-align: center;
+        }
+
+        .menu2>ul>li>a {
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: white;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+
+        .menu2>ul>li>a:hover {
+            color: rgb(64, 207, 172);
+        }
+
+        .menu2 ul ul {
+            display: none;
+            position: absolute;
+        }
+
+        .menu2 ul ul a {
+            display: block;
+        }
+
+        .menu2>ul>li:hover>ul {
+            display: block;
+        }
+
+        .menu2 ul ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 1px gray;
+        }
+
+        .menu2 ul ul a {
+            line-height: 30px;
+            color: rgb(56, 59, 243);
+            text-emphasis: none;
+            font-variant: small-caps;
+            font-size: larger;
+            padding: 0 10px;
+        }
+
+        .menu2 ul ul a:hover {
+            background-color: rgb(69, 236, 144);
+            color: rgb(248, 248, 250);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+        </header>
+        <nav class="menu2">
+            <ul>
+                <li><a href="trangchu.html">Trang Chủ</a></li>
+                <li><a href="gioithieu.html">Giới Thiệu</a></li>
+                <li>
+                    <a href="lienhe.html">Liên Hệ</a>
+                    <ul>
+                        <li><a href="">Hotline</a></li>
+                        <li><a href="">Emali</a></li>
+                    </ul>
+                </li>
+                <li><a href="gopy.html">Góp Ý</a></li>
+                <li><a href="gioidap.html">Giỏi Đáp</a></li>
+            </ul>
+
+        </nav>
+        <br>
+            <marquee> <b class="gradian">CHÀO MỪNG CÁC BẠN ĐẾN VỚI WEBSITE TRƯỜNG CAO ĐẲNG FPT POLYTECHNIC ĐÀ NẴNG</b>
+            </marquee>
+        
+        <div id="seach">
+            <form action="">
+                <input type="text" placeholder="Bạn cần tìm kiếm" required="">
+                <button type="submit">Tìm kiếm</button>
+            </form>
+        </div>
+    </div>
+    <div style="border:1px solid #cdcdcd;padding:30px">
+        <br> <br><br><br> <br>
+       <center> <h4>THƯ GÓP Ý</h4>
+        <div style="text-align:center">
+            <p><strong>Trường Trung học phổ thông Giao Thủy</strong></p>
+            <p>Địa chỉ: <strong>Khu 4A thị trấn Ngô Đồng huyện Giao Thủy tỉnh Nam Định</strong></p>
+            <p>Số điện thoại: <strong> 0766598400</strong></p>
+            <p>Email <strong>doongocphu11@gmail.com</strong></p>
+        </div></center>
+        <div style="margin-top:40px;padding: 40px">
+            <table style="width:100%;height: 400px;">
+                <tr>
+                    <td>Tên của bạn</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Email của bạn</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Tiêu đề góp ý</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Nội dung góp ý</td>
+                    <td><textarea name="" id="" cols="40" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Gửi lên</button> <button type="reset">Làm lại</button></td>
+                </tr>
+            </table>
+        </div>
+        <footer class="chantrang">
+            THPT Giao Thuỷ. All rights reserved.
+        </footer>
+    </div>
+    
+</body>
+<script src="https://uhchat.net/code.php?f=ff4c75"></script>
+
+
+</html>
